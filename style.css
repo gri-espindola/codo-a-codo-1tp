@@ -31,6 +31,20 @@
     padding-top: 56px;
 }
 
+#img-css{
+    width: 400px;
+    height: 310px;
+}
+#img-html{
+    width:280px;
+}
+#img-js{
+    width:180px;
+}
+#title-js{
+    padding-top: 15px;
+}
+
 #p-img-descriptiva{
     display: flex;
     justify-content: left;
@@ -59,4 +73,34 @@
     align-items: center;
     background-color: #b179df;
     height: 100px;
+}
+
+/* Responsive */
+
+@media (max-width:360px){
+    #container-nav{
+        width: 360px;
+        height: 80px;
+    }
+    #carouselExampleControls{
+        display: none;
+    }
+    #conocimientos{
+        padding-top: 60px;
+    }
+    #img-html{
+        width: 180px;
+        height: 180px;
+    }
+    #img-css{
+        width: 250px;
+        height: 240px;
+    }
+    #img-js{
+        width: 150px;
+        height: 150px;
+    }
+    #title-js{
+        padding-top: 0px;
+    }
 }
