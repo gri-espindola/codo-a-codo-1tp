@@ -14,9 +14,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#inicio">Codo a codo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">Inicio</span>
-            <span class="navbar-toggler-icon">Conocimientos</span>
-            <span class="navbar-toggler-icon">Contactame</span>
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -36,9 +34,9 @@
       <!-- Carrousel -->
 
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="inicio">
+        <div class="carousel-inner container-carrousel" id="inicio">
           <div class="carousel-item active">
-            <img src="./img/HTML-que-es.jpg" class="d-block w-100" height="400px" alt="imagen carrousel">
+            <img src="./img/HTML-que-es.jpg" class="d-block w-100" id="img-carrousel" alt="imagen carrousel">
           </div>
           <div class="carousel-item">
             <img src="./img/que-es-javaScript.jpg" class="d-block w-100" height="400px" alt="imagen carrousel 2">
@@ -101,8 +99,8 @@
 
       <!-- Imagen descriptiva -->
       <div class="d-flex m-5" id="img-descriptiva">
-        <div class="">
-        <img src="./img/Ada_Lovelace-1.png" alt="" style="width:700px; height:500px;">
+        <div>
+        <img src="./img/Ada_Lovelace-1.png" alt="imagen ada lovelace" id="img-ada">
         </div>
         <div class="p-3" id="p-img-descriptiva">
             <p> 
@@ -115,7 +113,7 @@
 
       <!-- FORM -->
 
-      <form class="row g-3 m-5" style="width:90%;" id="form">
+      <form class="row g-3 m-5" id="form">
         <h4 id="contactame">Contactame</h4>
         <div class="col-md-4">
           <label for="validationServer01" class="form-label">Nombre</label>
@@ -154,7 +152,7 @@
             Proporciona un código postal válido.
           </div>
         </div>
-        <div class="col-12">
+        <div class="col-12" id="btn-container">
           <button class="btn btn-primary" type="submit" id="btn-enviar">Enviar</button>
         </div>
       </form>
